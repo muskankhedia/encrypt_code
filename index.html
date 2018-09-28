@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Encrypt the Code</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+    <script src="encrypt.js"></script>
+</head>
+<body>
+    <form>
+        <div class="col-md-12">
+        <div class="col-md-6">
+        Enter the text below:
+        <br />
+        <br/>
+        <input type="text" id="name" value="" style="width:600px;height:50px;" >
+        <br>
+        <br>
+
+        <button type="Submit" name="Submit" value="Submit" onclick="return Encrypt()">Submit</button> 
+        <br/>
+        <br/>
+        </div>
+        <div class="col-md-6">
+        Encrypted Text:
+        <br>
+        <br>
+        <div id="encrypt" style="border:1px solid black;width:500px;height: 50px;">
+        </div>    
+        </div>
+        </div>
+    </form>
+</body>
+</html>
